@@ -22,7 +22,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 20px 50px;
+    padding: 0 50px;
     z-index: 1000000;
 }
 
@@ -127,7 +127,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
 }
 
 .banner .box .search input {
@@ -377,7 +377,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto;
+    margin: 0 auto;
     padding: 4rem 0;
 }
 
@@ -385,12 +385,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto;
+    margin: 0 auto;
     width: 25%;
 }
 
 .one li {
-    padding: 7px 0;
+    padding: 5px 0;
 }
 
 .one li a {
@@ -400,4 +400,142 @@ body {
 
 .one li a:hover {
     border-bottom: 1px solid #ccc;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 787px) {
+    
+    .container .head {
+        padding: 20px 50px;
+    }
+
+    .container .head img { 
+        width: 20%;
+    }    
+
+    .banner .box .heading h2 {
+        font-size: 3.1rem;
+        letter-spacing: 1.5px;
+        width: 100%;
+        
+    }
+    
+    .banner .box .heading h5 {
+        font-size: 1.4rem;
+        padding: 0.8rem 0;
+    }
+    
+    .banner .box .heading p {
+        font-size: 1.1rem;
+        padding: 13px 0;
+        padding-bottom: 17px;
+    }
+    
+    .banner .box .search {
+        flex-direction: column;
+        /* margin-bottom: 2%; */
+    }
+
+    .banner .box .search input {
+        min-width: 310px;
+        margin-bottom: 20px;
+    }
+
+    .partOne {
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+    
+    .partOne .talk {
+        width: 80%;
+        margin: 20px 0 30px 0;
+    }
+    
+    .partOne .image {
+        width: 80%;
+    }
+    
+    .partOne .talk h1 {
+        font-size: 3.2rem;
+        letter-spacing: 1.5px;
+        padding-bottom: 5px;
+    }
+    
+    .partOne .talk p {
+        font-size: 1.5rem;
+    }
+
+    
+.partSecond {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.partSecond .talkTwo {
+    width: 80%;
+    margin: 20px 0 30px 0;
+}
+
+.partSecond .image {
+    width: 80%;
+}
+
+.partSecond .talkTwo h1 {
+    
+    font-size: 3.2rem;
+    letter-spacing: 1.5px;
+    padding-bottom: 5px;
+}
+
+.partSecond .talkTwo p {
+    font-size: 1.5rem;
+}
+
+.listQues {
+    width: 80%;
+}
+
+.listQues h1 {
+    font-size: 2.6rem;
+    text-align: center;
+}
+
+.bannerTwo .box {
+    margin: 4rem 0;
+}
+
+.bannerTwo .box .heading p {
+    font-size: 1.1rem;
+    padding: 13px 0;
+    padding-bottom: 17px;
+}
+
+.bannerTwo .box .search {
+    flex-direction: column;
+}
+
+.bannerTwo .box .search input {
+    min-width: 310px;
+    margin-bottom: 20px;
+}
+
+
+.footerSection {
+    flex-direction: column;
+}
+
+.footerSection .one {
+    width: 50%;
+}
+
+
+}
+
+@media screen and (max-width: 496px) {
+    
 }
