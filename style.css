@@ -17,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 50px;
+    padding: 20px 50px;
     z-index: 1000000;
 }
 
@@ -29,11 +29,11 @@
     color: white;
     text-decoration: none;
     background-color: #e50914;
-    
-    padding: 8px 18px;
+    /* float: right; */
+    padding: 8px 15px;
     font-weight: 400;
-    
-    border-radius: 5px;
+    font-size: 1rem;
+    border-radius: 4px;
     
 } 
 
@@ -74,4 +74,21 @@
     font-size: 3.125rem;
     color: white;
     letter-spacing: 2px;
+    width: 80%;
+    
+}
+
+.banner .box .heading h5 {
+    font-size: 1.625rem;
+    color: white;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+
+.banner .box .heading p {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 500;
+    padding: 15px 0;
+    padding-bottom: 20px;
 }
