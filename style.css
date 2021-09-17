@@ -405,6 +405,7 @@ body {
 footer > h3 {
     color: white;
     text-align: center;
+    padding: 5px;
     margin: 10px;
     font-size: 1rem;
     font-weight: 200;
@@ -424,6 +425,10 @@ footer > h3 {
         width: 20%;
     }    
 
+    .box {
+        top: 5%;
+        bottom: 5%;
+    }
     .banner .box .heading h2 {
         font-size: 3.1rem;
         letter-spacing: 1.5px;
@@ -466,6 +471,7 @@ footer > h3 {
     
     .partOne .image {
         width: 80%;
+         margin-top: 15%;
     }
     
     .partOne .talk h1 {
