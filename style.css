@@ -402,6 +402,16 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
+footer > h3 {
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+
+
 /* Responsive */
 
 @media screen and (max-width: 787px) {
@@ -542,11 +552,12 @@ body {
        
 .container .head img { 
         width: 25%;
-    }    
-/* .box{
+    }  
+      
+.box{
     top: 5%;
     bottom: 5%;
-} */
+} 
     .banner .box .heading h2 {
         font-size: 2.8rem;
         letter-spacing: 1.3px;
@@ -568,6 +579,9 @@ body {
         margin-bottom: 10px;
     }
 
+    .partOne .image {
+       margin-top: 15%;
+    }
     
     .partOne .talk h1 {
         font-size: 3rem;
@@ -600,13 +614,18 @@ body {
     font-size: 1.2rem;
 }
 
-.bannerTwo .box .heading p {
-    font-size: 1rem;
-    padding: 13px 0;
+.bannerTwo .box .heading p{
+    font-size: 1.2rem;
+    padding: 13px 30px;
+    text-align: center;
 }
 
 .bannerTwo .box .search input {
     margin-bottom: 10px;
+}
+
+.text {
+    font-size: 1.1rem;
 }
 
 }
